@@ -1,0 +1,17 @@
+{
+  "name": "xiaoshitan-3d",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Interactive 3D literary geography model for Xiao Shi Tan Ji using CesiumJS and Three.js.",
+  "scripts": {
+    "dev": "serve .",
+    "start": "serve ."
+  },
+  "dependencies": {
+    "cesium": "^1.121.0",
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3"
+  }
+}

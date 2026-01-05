@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xiao Shi Tan Interactive 3D Model</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/cesium@1.121.0/Build/Cesium/Widgets/widgets.css"
+    />
+    <style>
+      html,
+      body,
+      #cesiumContainer {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #f4f4f4;
+      }
+      #uiPanel {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        padding: 0.75rem 1rem;
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 8px;
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cesiumContainer"></div>
+    <div id="uiPanel">Xiao Shi Tan Ji — Interactive 3D Literary Geography</div>
+    <script type="module" src="../src/main.js"></script>
+  </body>
+</html>

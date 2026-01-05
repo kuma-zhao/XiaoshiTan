@@ -1,0 +1,14 @@
+{
+  "section_1": {
+    "camera": "path_start",
+    "action": "walk"
+  },
+  "section_2": {
+    "camera": "overlook",
+    "action": "focus_water"
+  },
+  "section_3": {
+    "camera": "overlook",
+    "action": "focus_vegetation"
+  }
+}
